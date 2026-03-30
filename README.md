@@ -122,7 +122,7 @@ app/src/main/java/com/example/skilltracker/
 - API keys are stored in `local.properties` (not committed to source control)
 - Keys are injected via `BuildConfig` at compile time
 - Firebase rules should restrict read/write to authenticated users
-- ProGuard rules included for production builds
+- ProGuard rules included for production builds.
 
 ## 📱 Min Requirements
 
