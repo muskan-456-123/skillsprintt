@@ -1,0 +1,81 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.5/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:17:29 Parameter 'name' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:17:43 Parameter 'email' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:20:35 Parameter 'skill' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:23:28 Parameter 'course' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:26:30 Parameter 'courseId' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:26:48 Parameter 'sessions' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:28:31 Parameter 'courseId' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:28:49 Parameter 'session' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:31:32 Parameter 'courseId' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:31:50 Parameter 'progress' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:40:30 Parameter 'streak' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:43:35 Parameter 'date' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:43:49 Parameter 'completedBreaks' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:43:71 Parameter 'totalBreaks' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/data/remote/FirestoreService.kt:46:25 Parameter 'courseId' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/MainActivity.kt:67:60 'TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/MainActivity.kt:67:87 'TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.TrendingUp
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/chatbot/ChatbotScreen.kt:34:9 Variable 'coroutineScope' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/chatbot/ChatbotScreen.kt:167:40 'Send: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Send
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/course/CoursePickerScreen.kt:60:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/fitness/FitnessScreen.kt:55:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/plan/PlanSetupScreen.kt:41:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/progress/ProgressScreen.kt:48:35 'TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/session/DailySessionScreen.kt:183:5 Parameter 'courseTitle' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/session/DailySessionScreen.kt:184:5 Parameter 'videoId' is never used
+w: file:///C:/Users/hi/skill%20devolpment/app/src/main/java/com/example/skilltracker/presentation/session/DailySessionViewModel.kt:55:25 Variable 'completedCount' is never used
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:hiltAggregateDepsDebug
+> Task :app:hiltJavaCompileDebug
+> Task :app:processDebugJavaRes
+> Task :app:mergeDebugJavaResource
+> Task :app:transformDebugClassesWithAsm
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 1m 24s
+39 actionable tasks: 18 executed, 21 up-to-date

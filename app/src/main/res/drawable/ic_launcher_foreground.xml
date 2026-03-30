@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Book/learning icon representing skill development -->
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0"/>
+    <!-- Open book shape -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M54,38L54,68M54,38C50,38 42,36 38,34L38,64C42,66 50,68 54,68M54,38C58,38 66,36 70,34L70,64C66,66 58,68 54,68"/>
+    <path
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M54,38L54,68M54,38C50,38 42,36 38,34L38,64C42,66 50,68 54,68M54,38C58,38 66,36 70,34L70,64C66,66 58,68 54,68"/>
+    <!-- Upward arrow (growth/skill development) -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M54,30L49,36L53,36L53,44L55,44L55,36L59,36Z"/>
+</vector>

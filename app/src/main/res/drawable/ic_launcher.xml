@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Rounded rectangle background -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M4,4h40a4,4 0,0 1,0 4v36a4,4 0,0 1,-4 0h-36a4,4 0,0 1,0 -4v-36a4,4 0,0 1,4 0z"/>
+    <!-- Book shape -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M24,14L24,34M24,14C21.5,14 17,13 15,12L15,32C17,33 21.5,34 24,34M24,14C26.5,14 31,13 33,12L33,32C31,33 26.5,34 24,34"/>
+    <!-- Upward arrow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,9L21,13L23.5,13L23.5,18L24.5,18L24.5,13L27,13Z"/>
+</vector>
